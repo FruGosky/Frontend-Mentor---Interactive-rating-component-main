@@ -1,0 +1,91 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-weight: 500;
+}
+
+.container {
+    height: 100%;
+    max-height: 800px;
+    min-height: 667px;
+    width: 100%;
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 12%, 8%);
+    position: fixed;
+    font-size: 15px;
+}
+
+.box {
+    height: 50%;
+    width: 450px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.star {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 7%;
+    left: 7%;
+    transform: translate(-5%, -5%);
+    border-radius: 50px;
+    background-color: hsl(213, 19%, 25%);
+}
+
+#star {
+    position: fixed;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    color: hsl(0, 0%, 100%);
+    position: fixed;
+    top: 25%;
+    width: 78%; /* margin-right: 8%; added here XD */
+    margin-left: 8%;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-weight: 500;
+    line-height: 25px;
+}
