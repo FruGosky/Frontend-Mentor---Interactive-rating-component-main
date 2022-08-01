@@ -49,6 +49,7 @@ function imgChange() {
     document.getElementById("title").innerHTML = "Thank you!";
     document.getElementById("text").innerHTML = "We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!";
     let selectValue = "You selected " + z + " out of 5";
+    document.getElementById("answer").innerHTML = selectValue;
     document.getElementsByClassName("buttonMenu")[0].innerHTML = "";
     document.getElementsByClassName("buttonSubmitMenu")[0].innerHTML = "";
     console.log(z);

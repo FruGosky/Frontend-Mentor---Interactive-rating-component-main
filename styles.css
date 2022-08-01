@@ -84,8 +84,9 @@ body {
 .text {
     color: hsl(0, 0%, 100%);
     position: fixed;
-    width: 78%; /* margin-right: 8%; added here XD */
+    width: 84%; /* margin-right: 8%; added here XD */
     margin-left: 8%;
+    margin-right: 8%;
 }
 
 .text-pos1 {
@@ -94,12 +95,23 @@ body {
 
 .text-pos2 {
     top: 50%;
+    margin-left: 12.5%;
+    width: 75%;
     text-align: center;
 }
 
 
 h2 {
     font-weight: 700;
+}
+
+h5 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500;
+    color:hsl(25, 97%, 53%);
 }
 
 p {
@@ -173,8 +185,6 @@ p {
     position: relative;
     top: 70%;
 }
-
-
 
 /* # Front-end Style Guide
 
