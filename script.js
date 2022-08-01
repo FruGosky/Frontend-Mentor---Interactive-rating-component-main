@@ -56,7 +56,6 @@ function imgChange() {
         document.getElementsByClassName("buttonMenu")[0].innerHTML = "";
         document.getElementsByClassName("buttonSubmitMenu")[0].innerHTML = "";
     } else {
-        document.getElementsByClassName("box")[0].innerHTML = '<div class="text text-pos1">ERORR! U need to choose button!</div>';
-        document.getElementsByClassName("text-pos1")[0].className = "text text-pos2";
+        return;
     }
 }
