@@ -1,21 +1,42 @@
 function button1() {
-    document.getElementById("1").className = "button2";
+    document.getElementById("1").className = "button2"; // 1
+    document.getElementById("2").className = "button1";
+    document.getElementById("3").className = "button1";
+    document.getElementById("4").className = "button1";
+    document.getElementById("5").className = "button1";
     return z = 1;
 }
 function button2() {
-    document.getElementById("2").className = "button2";
+    document.getElementById("1").className = "button1";
+    document.getElementById("2").className = "button2"; // 2
+    document.getElementById("3").className = "button1";
+    document.getElementById("4").className = "button1";
+    document.getElementById("5").className = "button1";
     return z = 2;
 }
 function button3() {
-    document.getElementById("3").className = "button2";
+    document.getElementById("1").className = "button1";
+    document.getElementById("2").className = "button1";
+    document.getElementById("3").className = "button2"; // 3
+    document.getElementById("4").className = "button1";
+    document.getElementById("5").className = "button1";
     return z = 3;
 }
 function button4() {
-    document.getElementById("4").className = "button2";
+    document.getElementById("1").className = "button1";
+    document.getElementById("2").className = "button1";
+    document.getElementById("3").className = "button1";
+    document.getElementById("4").className = "button1";
+    document.getElementById("4").className = "button2"; // 4
+    document.getElementById("5").className = "button1";
     return z = 4;
 }
 function button5() {
-    document.getElementById("5").className = "button2";
+    document.getElementById("1").className = "button1";
+    document.getElementById("2").className = "button1";
+    document.getElementById("3").className = "button1";
+    document.getElementById("4").className = "button1";
+    document.getElementById("5").className = "button2"; // 5
     return z = 5;
 }
 
@@ -32,5 +53,3 @@ function imgChange() {
     document.getElementsByClassName("buttonSubmitMenu")[0].innerHTML = "";
     console.log(z);
 }
-
-
