@@ -41,16 +41,17 @@ function button5() {
 }
 
 function imgChange() {
-    document.getElementsByClassName("star")[0].className = "star1";
-    document.getElementById("star").src = "./images/illustration-thank-you.svg";
-    document.getElementById("star").alt = "illustration-thank-you.svg";
-    document.getElementById("star").id = "star1";
-    document.getElementsByClassName("text-pos1")[0].className = "text text-pos2";
-    document.getElementById("title").innerHTML = "Thank you!";
-    document.getElementById("text").innerHTML = "We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!";
-    let selectValue = "You selected " + z + " out of 5";
-    document.getElementById("answer").innerHTML = selectValue;
-    document.getElementsByClassName("buttonMenu")[0].innerHTML = "";
-    document.getElementsByClassName("buttonSubmitMenu")[0].innerHTML = "";
-    console.log(z);
+        if (z != undefined){}
+        document.getElementsByClassName("star")[0].className = "star1";
+        document.getElementById("star").src = "./images/illustration-thank-you.svg";
+        document.getElementById("star").alt = "illustration-thank-you.svg";
+        document.getElementById("star").id = "star1";
+        document.getElementsByClassName("text-pos1")[0].className = "text text-pos2";
+        document.getElementById("title").innerHTML = "Thank you!";
+        document.getElementById("text").innerHTML = "We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!";
+        let selectValue = "You selected " + z + " out of 5";
+        document.getElementById("answer").innerHTML = selectValue;
+        document.getElementsByClassName("answer")[0].className = "answer answerBackground";
+        document.getElementsByClassName("buttonMenu")[0].innerHTML = "";
+        document.getElementsByClassName("buttonSubmitMenu")[0].innerHTML = "";
 }
