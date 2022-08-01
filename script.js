@@ -1,3 +1,4 @@
+var z=0;
 function button1() {
     document.getElementById("1").className = "button2"; // 1
     document.getElementById("2").className = "button1";
@@ -59,4 +60,3 @@ function imgChange() {
         document.getElementsByClassName("text-pos1")[0].className = "text text-pos2";
     }
 }
-z=0;
