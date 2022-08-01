@@ -1,3 +1,7 @@
+I will be glad to hear some hints what to improve/learn next time :)
+
+What i was trying to do:
+
 # Frontend Mentor - Interactive rating component
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
