@@ -1,0 +1,36 @@
+function button1() {
+    document.getElementById("1").className = "button2";
+    return z = 1;
+}
+function button2() {
+    document.getElementById("2").className = "button2";
+    return z = 2;
+}
+function button3() {
+    document.getElementById("3").className = "button2";
+    return z = 3;
+}
+function button4() {
+    document.getElementById("4").className = "button2";
+    return z = 4;
+}
+function button5() {
+    document.getElementById("5").className = "button2";
+    return z = 5;
+}
+
+function imgChange() {
+    document.getElementsByClassName("star")[0].className = "star1";
+    document.getElementById("star").src = "./images/illustration-thank-you.svg";
+    document.getElementById("star").alt = "illustration-thank-you.svg";
+    document.getElementById("star").id = "star1";
+    document.getElementsByClassName("text-pos1")[0].className = "text text-pos2";
+    document.getElementById("title").innerHTML = "Thank you!";
+    document.getElementById("text").innerHTML = "We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!";
+    let selectValue = "You selected " + z + " out of 5";
+    document.getElementsByClassName("buttonMenu")[0].innerHTML = "";
+    document.getElementsByClassName("buttonSubmitMenu")[0].innerHTML = "";
+    console.log(z);
+}
+
+
