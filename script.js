@@ -41,7 +41,7 @@ function button5() {
 }
 
 function imgChange() {
-        if (z != undefined){}
+    if (z != 0){
         document.getElementsByClassName("star")[0].className = "star1";
         document.getElementById("star").src = "./images/illustration-thank-you.svg";
         document.getElementById("star").alt = "illustration-thank-you.svg";
@@ -54,4 +54,9 @@ function imgChange() {
         document.getElementsByClassName("answer")[0].className = "answer answerBackground";
         document.getElementsByClassName("buttonMenu")[0].innerHTML = "";
         document.getElementsByClassName("buttonSubmitMenu")[0].innerHTML = "";
+    } else {
+        document.getElementsByClassName("box")[0].innerHTML = '<div class="text text-pos1">ERORR! U need to choose button!</div>';
+        document.getElementsByClassName("text-pos1")[0].className = "text text-pos2";
+    }
 }
+z=0;
