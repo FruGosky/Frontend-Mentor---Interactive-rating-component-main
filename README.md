@@ -1,3 +1,5 @@
+Preview site: https://frugosky.github.io/Frontend-Mentor---Interactive-rating-component-main/
+
 I will be glad to hear some hints what to improve/learn next time :)
 
 What i was trying to do:
