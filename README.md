@@ -1,4 +1,4 @@
-Preview site: https://frugosky.github.io/Frontend-Mentor---Interactive-rating-component-main/
+Preview site: https://frugosky.github.io/Interactive-rating-component-main/
 
 I will be glad to hear some hints what to improve/learn next time :)
 
